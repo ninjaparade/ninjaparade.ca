@@ -11,7 +11,7 @@ class PostController extends BasePostController
     public function index()
     {
         return View::make('posts', [
-            'title' => "Posts",
+            'title' => "Articles",
             'posts' => $this->getPosts(),
         ]);
     }

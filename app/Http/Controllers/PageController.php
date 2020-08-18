@@ -9,12 +9,10 @@ use Wink\WinkPage;
 
 class PageController extends Controller
 {
-    public function index($slug)
+    public function show($slug)
     {
-        $page = Cache::remember("pages.{$slug}", Config::get('wink.cache_for'), function () use ($slug) {
-            return WinkPage::whereSlug($slug)
+        return WinkPage::whereSlug($slug)
           ->firstOrFail();
-        });
 
         return view('page', compact('page'));
     }
