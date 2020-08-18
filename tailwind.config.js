@@ -1,13 +1,5 @@
 module.exports = {
-    purge: {
-        content: [
-            "./resouces/views/**/*.php",
-            "./resouces/views/**/*.blade.php"
-        ],
-        options: {
-            whitelist: []
-        }
-    },
+    purge: ["./resources/views/**/**/*.blade.php"],
     theme: {
         typography: {
             default: {

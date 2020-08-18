@@ -46,17 +46,7 @@
                                    </svg>
                               </a>
                          </span>
-
                     </div>
-
-                    <a class="inline-flex items-center">
-                         <img alt="blog" src="{{ $post->author_avatar }}"
-                              class="flex-shrink-0 object-cover object-center w-12 h-12 rounded-full">
-                         <span class="flex flex-col flex-grow pl-4">
-                              <span class="font-medium text-gray-900 title-font">{{ $post->author_name }}</span>
-                              <span class="text-sm text-gray-500">{!! $post->author_bio !!}</span>
-                         </span>
-                    </a>
                </div>
                @endforeach
           </div>

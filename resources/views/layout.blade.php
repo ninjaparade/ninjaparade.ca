@@ -39,6 +39,19 @@
      <meta name="twitter:site" content="@contestkit" />
      <meta name="twitter:creator" content="@contestkit" />
 
+     @if (App::environment('production')) {
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12760287-1"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+               dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "UA-12760287-1");
+     </script>
+     @endif
+
 </head>
 
 <body class="@yield('body-class') font-sans text-base">
