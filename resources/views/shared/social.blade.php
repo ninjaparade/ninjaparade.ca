@@ -1,4 +1,4 @@
-<title>ContestKit</title>
+<title>Ninjaparade</title>
 <meta name="description" content="Development journal of a ninja">
 <meta property="og:url" content="{{ url('/') }}" />
 <meta property="og:title" content="Ninjaparade" />
