@@ -20,6 +20,7 @@
      <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
      <link rel="icon" type="image/png" href="/favicons/favicon-128.png" sizes="128x128" />
 
+     <link rel="alternate" type="application/atom+xml" title="News" href="{{ route('feeds.main') }}">
 
      <!-- Fonts -->
      <link rel="stylesheet" href="{{ mix('css/main.css') }}" />
@@ -31,8 +32,6 @@
      <link rel="stylesheet" href="//rsms.me/inter/inter.css" />
 
 
-     <meta property="fb:app_id" content="" />
-     <meta property="og:site_name" content="" />
 
      @yield('social', View::make('shared.social'))
 
@@ -55,10 +54,8 @@
 </head>
 
 <body class="@yield('body-class') font-sans text-base">
-
      @include('shared.nav')
      @yield('content')
-
      @stack('scripts')
 </body>
 

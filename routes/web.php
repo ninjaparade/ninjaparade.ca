@@ -25,4 +25,7 @@ Route::get('blog', [PostController::class, 'index'])->name('posts.index');
 Route::get('blog/{slug}', [PostController::class, 'show'])->name('post.show');
 
 Route::get('tags/{tag}', [TagController::class, 'show'])->name('tag.show');
+
+Route::feeds();
+
 Route::get('{slug}', [PageController::class, 'show'])->name('page.show');
