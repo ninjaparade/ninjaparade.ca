@@ -36,8 +36,8 @@
 
      @yield('social', View::make('shared.social'))
 
-     <meta name="twitter:site" content="@contestkit" />
-     <meta name="twitter:creator" content="@contestkit" />
+     <meta name="twitter:site" content="@ninjaparade" />
+     <meta name="twitter:creator" content="@ninjaparade" />
 
      @if (App::environment('production'))
      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12760287-1"></script>

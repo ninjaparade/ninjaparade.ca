@@ -6,7 +6,9 @@
 <meta property="og:image:secure_url" content="" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="600" />
-<meta property="og:site_name" content="" />
+<meta property="fb:app_id" content="" />
+
+<meta property="og:site_name" content="Development journal of a ninja" />
 <meta property="og:description" content="Development journal of a ninja" />
 
 <meta name="twitter:title" content="Ninjaparade">
