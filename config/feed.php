@@ -18,8 +18,8 @@ return [
              */
             'url' => 'feed/rss',
 
-            'title' => 'My feed',
-            'description' => 'The description of the feed.',
+            'title' => 'Blog feed',
+            'description' => 'Development journal of a ninja.',
             'language' => 'en-US',
 
             /*
