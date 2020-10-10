@@ -39,6 +39,7 @@ class BasePostController extends Controller
                 ->limit(1),
         ])
         ->with(['tags'])
+        ->latest()
         ->get();
 
         return view('articles', compact('articles'));
@@ -88,6 +89,7 @@ class BasePostController extends Controller
                     ->limit(1),
             ])
             ->with(['tags'])
+            ->latest()
             ->get();
     }
 }

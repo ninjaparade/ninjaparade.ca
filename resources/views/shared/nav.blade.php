@@ -9,10 +9,12 @@
                     </div>
                </a>
                <div class="flex ml-6">
+                    {{--
                     <a href="{{ url('work') }}"
-                         class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-900 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-700 hover:border-brand-red-75 focus:outline-none focus:text-gray-700 focus:border-brand-red-75">
-                         Work
+                    class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-900 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-700 hover:border-brand-red-75 focus:outline-none focus:text-gray-700 focus:border-brand-red-75">
+                    Work
                     </a>
+                    --}}
                     <a href="{{ url('blog') }}"
                          class="inline-flex items-center px-1 pt-1 ml-8 text-sm font-medium leading-5 text-gray-900 transition duration-150 ease-in-out border-b-2 border-transparent hover:text-gray-700 hover:border-brand-red-75 focus:outline-none focus:text-gray-700 focus:border-brand-red-75">
                          Blog
