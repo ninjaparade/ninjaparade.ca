@@ -39,7 +39,7 @@ class BasePostController extends Controller
                 ->limit(1),
         ])
         ->with(['tags'])
-        ->latest()
+        ->orderBy('id')
         ->get();
 
         return view('articles', compact('articles'));
