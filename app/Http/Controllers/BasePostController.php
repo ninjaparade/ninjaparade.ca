@@ -39,7 +39,7 @@ class BasePostController extends Controller
                 ->limit(1),
         ])
         ->with(['tags'])
-        ->orderBy('publish_date')
+        ->orderBy('publish_date', 'desc')
         ->get();
 
         return view('articles', compact('articles'));
